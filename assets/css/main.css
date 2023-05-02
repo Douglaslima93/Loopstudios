@@ -117,7 +117,122 @@
     opacity: 0.5;
 }
 
+@media screen and (max-width: 375px) {
+    .section-leader {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .leader-img{
+        background-image: url('../img/mobile/image-interactive.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 80%;
+        height: 50vh;
+        margin:auto;
 
+    }
+    
+    .leader-texto {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .leader-texto h2 , .creations-texto h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .leader-texto p{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .creations-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .creations-img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 15px;
+     }
+     
+     .creations-img p{
+         color: white;
+         font-size: 30px;
+         margin-top: 80px;
+         margin-left: 20px;
+         width: 120px;
+     }
+     
+     .deep-earth, .arcade, .soccer, .grid , .above, .borealis, .curiosity, .fisheye{
+         width: 654px;
+         height: 240px;
+     }
+     
+     .deep-earth {
+         background-image: url('../img/mobile/image-deep-earth.jpg');
+         background-size: 60% 70%;
+         background-repeat: no-repeat;
+     }
+     
+     .arcade {
+         background-image: url('../img/mobile/image-night-arcade.jpg');
+         background-size: 60% 70%;
+         background-repeat: no-repeat;
+     }
+     
+     .soccer {
+         background-image: url('../img/mobile/image-soccer-team.jpg');
+         background-size: 60% 70%;
+         background-repeat: no-repeat;
+     }
+     
+     .grid {
+         background-image: url('../img/mobile/image-grid.jpg');
+         background-size: 60% 70%;
+         background-repeat: no-repeat;
+     }
+     
+     .above {
+         background-image: url('../img/mobile/image-from-above.jpg');
+         background-size: 60% 70%;
+         background-repeat: no-repeat;
+     }
+     
+     .borealis {
+         background-image: url('../img/mobile/image-pocket-borealis.jpg');
+         background-size: 60% 70%;
+         background-repeat: no-repeat;
+     }
+     
+     .curiosity {
+         background-image: url('../img/mobile/image-curiosity.jpg');
+         background-size: 60% 70%;
+         background-repeat: no-repeat;
+     }
+     
+     .fisheye {
+         background-image: url('../img/mobile/image-fisheye.jpg');
+         background-size: 60% 70%;
+         background-repeat: no-repeat;
+     }
+
+}
 
 
 
