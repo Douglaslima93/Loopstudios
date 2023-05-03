@@ -44,6 +44,10 @@ header {
     border-bottom: 2px white solid;
 }
 
+#close {
+    display: none;
+}
+
 .experiencia {
     width: 450px;
     color: white;
@@ -87,19 +91,29 @@ header {
         cursor: pointer;
     }
 
-    .menu {
+    #menu {
         display: none;
         background-color: black;
+        margin-top: 150px;
+        margin-left: 30px;
+        padding: 5px;
     }
 
     .nav ul{
         display: flex;
         flex-direction: column;
         justify-content: end;
-        align-items: flex-start;
+        align-items: center;
+        gap: 20px;
     }
-    
+
+    #close{
+       text-align: center;
+       display: block;
+    }
+
     .nav img {
-        margin-left: 30px;
+        margin-left: 20px;
     }
+
 }
