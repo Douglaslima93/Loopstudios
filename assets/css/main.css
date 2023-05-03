@@ -6,9 +6,16 @@
 }
 
 .leader-img{
-   margin-top: auto;
-   margin-bottom: auto;
-   margin-left: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 75px;
+}
+
+.leader-imagem {
+    background-image: url('../img/desktop/image-interactive.jpg');
+    background-repeat: no-repeat;
+    width: 731px;
+    height: 500px;
 }
 
 .leader-texto {
@@ -126,13 +133,16 @@
     }
     
     .leader-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .leader-imagem {
         background-image: url('../img/mobile/image-interactive.jpg');
         background-repeat: no-repeat;
-        background-size: contain;
-        width: 80%;
-        height: 50vh;
-        margin:auto;
-
+        background-position: center;
+        width: 654px;
+        height: 448px;
     }
     
     .leader-texto {
